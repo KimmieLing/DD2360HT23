@@ -136,7 +136,7 @@ int main(int argc, char **argv)
                     countx++;
                 else
                 {
-                    std::cout << "Wrong: " << part->x[i] << " and " << partDevice->x[i] << std::endl;
+                   std::cout << "Wrong: " << part->x[i] << " and " << partDevice->x[i] << std::endl;
                 }
                 if(std::abs(part->y[i] - partDevice->y[i]) < tolerance)
                     county++;
